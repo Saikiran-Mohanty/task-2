@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile Card</title>
+</head>
+<body>
+    <div class="container">
+        <div class="screen-head">
+            <div class="head-left">
+                <img src="https://www.seekpng.com/png/small/41-410093_circled-user-icon-user-profile-icon-png.png" alt="">
+            </div>
+           <div class="head-centre">
+            <h2 class="pc">Profile Card</h2>
+           </div>
+           <div class="head-right">
+
+            <h3>...</h3>
+           </div>
+        </div>
+        <div class="screen">
+            <div class="left">
+                <h4>Name: <span id="n" aria-placeholder="Name"></span> </h4>
+                <h4>About: <span id="a"></span> </h4>
+                <h4>Adress: <span id="ad"></span> </h4>
+                <h4>Phone No.: <span id="p"></span> </h4>
+                <h4>College: <span id="c"></span> </h4>
+            </div>
+            <div class="right ">
+                <div class="form__group field">
+                    <input type="input" class="form__field" placeholder="Name" name="name" id='name' required />
+                    <label for="name" class="form__label">Name</label>
+                  </div>
+
+                  <div class="form__group field">
+                    <input type="input" class="form__field" placeholder="about" name="about" id='about' required />
+                    <label for="about" class="form__label">About</label>
+                  </div>
+
+                  <div class="form__group field">
+                    <input type="input" class="form__field" placeholder="address" name="address" id='address' required />
+                    <label for="address" class="form__label">Address</label>
+                  </div>
+
+                  <div class="form__group field">
+                    <input type="input" class="form__field" placeholder="phone" name="phone" id='phone' required />
+                    <label for="phone" class="form__label">Phone Number</label>
+                  </div>
+
+                  <div class="form__group field">
+                    <input type="input" class="form__field" placeholder="college" name="college" id='college' required />
+                    <label for="college" class="form__label">College</label>
+                  </div>
+                  
+                 <div class="btn">Submit</div>
+            </div>
+            <div class="image">
+              <img src="https://images.unsplash.com/photo-1515436540406-ee6b04123b08?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="profileCard.js"></script>
+</html>
